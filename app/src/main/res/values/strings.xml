@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="question">Throw what?</string>
+    <string name ="coin">Coin</string>
+    <string name ="dice">Dice</string>
+    <string name ="other">Other</string>
+    <string name ="throwing">Throw</string>
+    <string name ="result">Result:&#160;</string>
+    <string name ="instructions">Instructions</string>
+    <string name ="heads">Heads</string>
+    <string name ="tails">Tails</string>
+    <string name ="explanation">Coin - Program prints out head or tails\nDice - Program prints a number between 1-6\nOther - Program prints a number that has the maximum value of the number written in the field</string>
+
+</resources>

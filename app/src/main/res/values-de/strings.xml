@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Würfel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="question">Werfen Sie was?</string>
+    <string name ="coin">Münze</string>
+    <string name ="dice">Würfel</string>
+    <string name ="other">Anderer</string>
+    <string name ="throwing">Werfen</string>
+    <string name ="result">Ergebnis:&#160;</string>
+    <string name ="instructions">die Gebrauchsanweisung</string>
+    <string name ="heads">Kopf</string>
+    <string name ="tails">Zahl</string>
+    <string name ="explanation">Münze - Programm druckt Kopf oder Zahl\nWürfel - Programm gibt eine Zahl zwischen 1-6\nAnderer - Programm gibt eine Zahl, die den maximalen Wert der Anzahl im Bereich geschrieben hat</string>
+
+</resources>

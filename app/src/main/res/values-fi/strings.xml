@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Noppa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="question">Mitä haluat heittää?</string>
+    <string name ="coin">Kolikko</string>
+    <string name ="dice">Noppa</string>
+    <string name ="other">Muu</string>
+    <string name ="throwing">Heitä</string>
+    <string name ="result">Tulos:&#160;</string>
+    <string name ="instructions">Ohjeet</string>
+    <string name ="heads">Kruuna</string>
+    <string name ="tails">Klaava</string>
+    <string name ="explanation">Kolikko - Ohjelma tulostaa kruuna tai klaava\nNoppa - Ohjelma tulostaa numeron 1-6 väliltä\nMuu - Ohjelma tulostaa numeron käyttäen kenttään syötettyä numeroa korkeimpana mahdollisena numerona
+</string>
+
+</resources>

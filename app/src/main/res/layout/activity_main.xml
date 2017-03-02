@@ -1,0 +1,131 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#414346"
+    tools:context="com.joona.dice.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:id="@+id/lopputulos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="false"
+            android:autoText="false"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:clickable="false"
+            android:layout_alignTop="@+id/heitit"
+            android:layout_toRightOf="@+id/heitit" />
+
+        <EditText
+            android:id="@+id/dNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:inputType="number"
+            android:text="20"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_alignRight="@+id/heittaa"
+            android:layout_alignEnd="@+id/heittaa"
+            android:layout_alignLeft="@+id/heittaa"
+            android:layout_alignStart="@+id/heittaa" />
+
+        <Button
+            android:id="@+id/heittaa"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="heitto"
+            android:text="@string/throwing"
+            android:layout_below="@+id/dNumero"
+            android:layout_alignLeft="@+id/kysymys"
+            android:layout_alignStart="@+id/kysymys"
+            android:layout_alignRight="@+id/kysymys"
+            android:layout_alignEnd="@+id/kysymys" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/question"
+            android:textColor="#FFFFFF"
+            android:id="@+id/kysymys"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:autoText="false" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/radio"
+            android:background="#636466"
+            android:layout_below="@+id/kysymys"
+            android:layout_above="@+id/dNumero"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coin"
+                android:textColor="#FFFFFF"
+                android:id="@+id/kolikko"
+                android:layout_gravity="center_horizontal"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dice"
+                android:textColor="#FFFFFF"
+                android:id="@+id/noppa"
+                android:layout_gravity="center_horizontal"
+                android:checked="true" />
+
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other"
+            android:textColor="#FFFFFF"
+            android:id="@+id/muuNoppa"
+            android:layout_gravity="center_horizontal"
+            android:checked="false" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/result"
+            android:textColor="#FFFFFF"
+            android:id="@+id/heitit"
+            android:layout_below="@+id/heittaa"
+            android:layout_alignLeft="@+id/heittaa"
+            android:layout_alignStart="@+id/heittaa"
+            android:layout_alignParentEnd="false" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:id="@+id/buttonToast"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    </FrameLayout>
